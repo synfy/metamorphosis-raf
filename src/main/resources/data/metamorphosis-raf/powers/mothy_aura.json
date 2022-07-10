@@ -1,0 +1,16 @@
+{
+  "name": "Moth-y Aura",
+  "description": "You glow red.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 4,
+  "duration_per_stack": 10,
+  "effect": {
+    "effect": "minecraft:glowing",
+    "is_ambient": true,
+    "show_particles": false,
+    "show_icon": true,
+    "green": 0,
+    "blue": 0
+  }
+}

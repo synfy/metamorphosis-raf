@@ -1,0 +1,63 @@
+{
+  "type": "origins:multiple",
+  "name": "Leafy Greens",
+  "description": "You can digest leaves and saplings by clicking on them while sneaking.",
+  "eat_leaves": {
+    "type": "origins:action_on_block_use",
+    "entity_action": {
+      "type": "origins:feed",
+      "food": 1,
+      "saturation": 1
+    },
+    "block_action": {
+      "type": "origins:set_block",
+      "block": "minecraft:air"
+    },
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:leaves"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": "!=",
+          "compare_to": 20
+        }
+      ]
+    }
+  },
+  "eat_saplings": {
+    "type": "origins:action_on_block_use",
+    "entity_action": {
+      "type": "origins:feed",
+      "food": 2,
+      "saturation": 4
+    },
+    "block_action": {
+      "type": "origins:set_block",
+      "block": "minecraft:air"
+    },
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:saplings"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:food_level",
+          "comparison": "!=",
+          "compare_to": 20
+        }
+      ]
+    }
+  }
+}

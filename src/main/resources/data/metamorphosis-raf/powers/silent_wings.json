@@ -1,0 +1,6 @@
+{
+  "type": "origins:prevent_game_event",
+  "name": "Silent Wings",
+  "description": "You make no noise when flying",
+  "event": "minecraft:elytra_free_fall"
+}

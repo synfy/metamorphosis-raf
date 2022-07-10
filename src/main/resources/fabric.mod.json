@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "metamorphosis-raf",
+  "version": "${version}",
+
+  "name": "Metamorphosis: Real and Fiction",
+  "description": "Season two of Metamorphosis",
+  "authors": [
+    "Synfy"
+  ],
+  "contact": {
+    "homepage": "https://synfy.github.io/metamorphosis-raf/",
+    "sources": "https://github.com/synfy/metamorphosis-raf"
+  },
+
+  "license": "CC BY-NC-SA 4.0",
+  "icon": "assets/metamorphosis-raf/icon2.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.metamorphosis.raf.common.MetamorphosisRAF"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "origins": ">=1.6.2",
+    "pehkui": ">=3.3.3"
+  },
+  "suggests": {
+    "another-mod": "Metamorphosis: Genesis"
+  }
+}

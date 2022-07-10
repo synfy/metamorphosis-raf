@@ -1,0 +1,6 @@
+{
+  "type": "metamorphosis-raf:change_size",
+  "name": "Itty Bitty",
+  "description": "You're totally tiny!",
+  "scale": 0.25
+}

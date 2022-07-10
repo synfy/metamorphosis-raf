@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:climbing",
+    "origins:vegetarian",
+    "metamorphosis-raf:itty_bitty",
+    "metamorphosis-raf:less_health",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "name": "Mothling",
+  "description": "The larval form of the famous West Virginian cryptid."
+}

@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins:carnivore",
+    "metamorphosis-raf:flutter",
+    "metamorphosis-raf:mothy_aura",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Mothman",
+  "description": "Mothman! There's no need to feel down! I said, Mothman! Lift that man off the ground!"
+}

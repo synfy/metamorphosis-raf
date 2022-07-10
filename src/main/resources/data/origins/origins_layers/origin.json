@@ -1,0 +1,13 @@
+{
+  "loading_priority": 0,
+  "replace": true,
+  "origins": [
+    "metamorphosis-raf:mothling",
+    "metamorphosis-raf:mothman"
+  ],
+  "allow_random": true,
+  "exclude_random": [
+  ],
+  "allow_random_unchoosable": false,
+  "hidden": false
+}

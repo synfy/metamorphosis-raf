@@ -1,0 +1,7 @@
+{
+  "name": "Growing Appetite",
+  "description": "You're still growing, so you need more food to keep you going.",
+  "type": "origins:exhaust",
+  "interval": 40,
+  "exhaustion": 1.0
+}

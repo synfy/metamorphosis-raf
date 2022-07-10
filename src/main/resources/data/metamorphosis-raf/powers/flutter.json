@@ -1,0 +1,10 @@
+{
+  "type": "origins:active_self",
+  "name": "Flutter",
+  "description": "You can flutter upwards.",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "y": 0.5
+  },
+  "cooldown": 5
+}
