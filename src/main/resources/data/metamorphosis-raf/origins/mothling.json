@@ -2,8 +2,11 @@
   "powers": [
     "origins:climbing",
     "origins:vegetarian",
+    "metamorphosis-raf:growing_appetite",
+    "metamorphosis-raf:leafy_greens",
     "metamorphosis-raf:itty_bitty",
     "metamorphosis-raf:less_health",
+    "metamorphosis-raf:growth_controller_mothman",
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:feather",

@@ -1,0 +1,9 @@
+{
+  "origins": [
+    "metamorphosis-raf:mothling",
+    "metamorphosis-raf:mothman"
+  ],
+  "name": "origin",
+  "replace": true,
+  "allow_random": true
+}

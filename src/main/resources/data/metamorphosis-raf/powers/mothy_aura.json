@@ -1,6 +1,6 @@
 {
   "name": "Moth-y Aura",
-  "description": "You glow red.",
+  "description": "You glow.",
   "type": "origins:stacking_status_effect",
   "min_stacks": 0,
   "max_stacks": 4,

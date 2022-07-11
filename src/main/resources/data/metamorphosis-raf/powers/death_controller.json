@@ -29,7 +29,7 @@
       "actions": [
         {
           "type": "origins:execute_command",
-          "command": "tellraw @a {\"text\":\"\",\"color\":\"green\",\"extra\":[{\"selector\":\"@s\"},{\"text\":\" has rolled a new origin. Good luck!\"}]}"
+          "command": "tellraw @a {\"text\":\",\"color\":\"green\",\"extra\":[{\"selector\":\"@s\"},{\"text\":\" has rolled a new origin. Good luck!\"}]}"
         },
         {
           "type": "origins:execute_command",
