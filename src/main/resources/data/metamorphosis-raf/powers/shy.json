@@ -1,5 +1,22 @@
 {
-  "type": "",
+  "type": "origins:action_over_time",
   "name": "Shy",
-  "description": "Making eye contact with another entity causes you to shake and grow larger, to scare off potential predators"
-}
+  "description": "Making eye contact with another entity causes you to shake and grow larger, to scare off potential predators",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": "12",
+    "block": true,
+    "entity": true,
+    "shape_type": "visual",
+    "fluid_handling": "source_only",
+    "bientity_action": {
+      "type":"origins:actor_action", 
+      "action": {
+        "type": "origins:execute_command",
+        "command": "say stop looking at me >:("
+      }
+    }
+  },
+
+  "command_step": 1,
+  "command_along_ray_only_on_hit": true
