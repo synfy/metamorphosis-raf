@@ -10,7 +10,7 @@
     "shape_type": "visual",
     "fluid_handling": "source_only",
     "bientity_action": {
-      "type":"origins:actor_action", 
+      "type":"origins:actor_action",
       "action": {
         "type": "origins:execute_command",
         "command": "say stop looking at me >:("

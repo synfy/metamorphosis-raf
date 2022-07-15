@@ -1,0 +1,6 @@
+{
+  "type": "metamorphosis-raf:change_size",
+  "name": "Small",
+  "description": "You're half the normal size!",
+  "scale": 0.5
+}

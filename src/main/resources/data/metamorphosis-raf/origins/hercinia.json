@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins:vegetarian",
+    "origins:fire_immunity",
+    "origins:launch_into_air",
+    "origins:fresh_air",
+    "metamorphosis-raf:extra_sense",
+    "metamorphosis-raf:sensitive_eyes",
+    "metamorphosis-raf:mothy_aura",
+    "metamorphosis-raf:wet_feathers",
+    "metamorphosis-raf:moult",
+    "metamorphosis-raf:blaze",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Hercinia",
+  "description": "A resident of the Hercynian forest, your feathers glow like fire and you only appear to those who have lost their way."
+}

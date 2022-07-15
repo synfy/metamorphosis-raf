@@ -1,0 +1,17 @@
+{
+  "name": "Blaze",
+  "description": "You can set yourself on fire every once and a while, as a treat",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:set_on_fire",
+    "duration": 8
+  },
+  "cooldown": 400,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 7
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  }
+}

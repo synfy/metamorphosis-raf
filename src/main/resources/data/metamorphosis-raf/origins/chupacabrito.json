@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "metamorphosis-raf:feeds_on_the_living",
+    "metamorphosis-raf:small",
+    "metamorphosis-raf:less_health",
+    "metamorphosis-raf:no_stomach",
+    "metamorphosis-raf:growth_controller_chupacabra",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:goat_horn",
+  "impact": 2,
+  "name": "Chupacabrito",
+  "description": "The baby form of the Chupacabra"
+}

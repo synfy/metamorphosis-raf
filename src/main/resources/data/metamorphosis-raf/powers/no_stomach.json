@@ -1,0 +1,5 @@
+{
+  "name": "No Intestines",
+  "description": "You don't digest food in the same way, so you don't regain any health from eating.",
+  "type": "origins:disable_regen"
+}

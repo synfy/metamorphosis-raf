@@ -1,0 +1,10 @@
+{
+  "name": "Pounce",
+  "description": "You can spring up high to catch prey.",
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:add_velocity",
+    "y": 1,
+    "cooldown": 40
+  }
+}

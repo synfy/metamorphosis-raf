@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "metamorphosis-raf:feeds_on_the_living",
+    "metamorphosis-raf:no_stomach",
+    "metamorphosis-raf:goat_killer",
+    "metamorphosis-raf:pounce",
+    "metamorphosis-raf:hated",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:goat_horn",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Chupacabra",
+  "description": "The infamous goat-sucker"
+}

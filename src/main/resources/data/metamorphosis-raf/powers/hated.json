@@ -1,0 +1,19 @@
+{
+  "name": "Hated",
+  "description": "Villagers can tell what you are and won't trade with you.",
+  "type": "origins:prevent_entity_use",
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:execute_command",
+      "command": "title @s actionbar {\"text\": \"Go away!\", \"color\": \"red\"}"
+    }
+  },
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:entity_type",
+      "entity_type": "minecraft:villager"
+    }
+  }
+}

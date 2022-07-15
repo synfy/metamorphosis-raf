@@ -4,7 +4,7 @@
   "description": "Your eyes are best for seeing in low light. If there's too much sunlight, you won't be able to see much.",
   "blind_in_day": {
     "type": "origins:stacking_status_effect",
-    "min_stacks": -200,
+    "min_stacks": -100,
     "max_stacks": 200,
     "duration_per_stack": 10,
     "effect": {

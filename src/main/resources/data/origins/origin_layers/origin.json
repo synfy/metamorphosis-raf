@@ -1,7 +1,11 @@
 {
   "origins": [
     "metamorphosis-raf:mothling",
-    "metamorphosis-raf:mothman"
+    "metamorphosis-raf:mothman",
+    "metamorphosis-raf:chupacabrito",
+    "metamorphosis-raf:chupacabra",
+    "metamorphosis-raf:hercinia_fledgeling",
+    "metamorphosis-raf:hercinia"
   ],
   "name": "origin",
   "replace": true,

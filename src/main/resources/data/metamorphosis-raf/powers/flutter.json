@@ -6,5 +6,5 @@
     "type": "origins:add_velocity",
     "y": 0.5
   },
-  "cooldown": 5
+  "cooldown": 10
 }

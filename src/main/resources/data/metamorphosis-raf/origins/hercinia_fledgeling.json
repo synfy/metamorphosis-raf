@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:fresh_air",
+    "origins:vegetarian",
+    "origins:fire_immunity",
+    "metamorphosis-raf:sensitive_eyes",
+    "metamorphosis-raf:mothy_aura",
+    "metamorphosis-raf:wet_feathers",
+    "metamorphosis-raf:extra_sense",
+    "metamorphosis-raf:growth_controller_hercinia",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "name": "Hercinia Fledgeling",
+  "description": "The chick of the legendary hercinia."
+}
