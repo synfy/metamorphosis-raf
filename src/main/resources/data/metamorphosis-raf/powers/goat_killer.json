@@ -1,15 +1,38 @@
 {
   "name": "Goat Killer",
   "description": "Goats are your preferred prey, and you get a little bit more out of them than everyone else.",
-  "type": "origins:replace_loot_table",
-  "bientity_condition": {
-    "type": "origins:target_condition",
-    "condition": {
-      "type": "origins:entity_type",
-      "entity_type": "minecraft:goat"
+  "type": "origins:multiple",
+  "drops": {
+    "type": "origins:replace_loot_table",
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:goat"
+      }
+    },
+    "replace": {
+      "minecraft:entities/goat" : "metamorphosis-raf:entities/custom_goat_drops"
     }
   },
-  "replace": {
-    "minecraft:entities/goat" : "metamorphosis-raf:entities/custom_goat_drops"
+  "buffs": {
+    "type": "origins:self_action_on_kill",
+    "target_condition": {
+      "type": "origins:entity_type",
+      "entity_type": "minecraft:goat"
+    },
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "duration": 100
+        },
+        {
+          "effect": "minecraft:strength",
+          "duration": 100
+        }
+      ]
+    }
   }
 }
