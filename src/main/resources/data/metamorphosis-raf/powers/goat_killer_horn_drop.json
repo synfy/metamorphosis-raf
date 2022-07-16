@@ -1,0 +1,74 @@
+{
+  "hidden": true,
+  "description": "Killing a goat sometimes gives you a horn",
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:chance",
+    "action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:ponder_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:sing_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:seek_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:feel_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:admire_goat_horn}"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:call_goat_horn}"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command":"give @p minecraft:goat_horn{instrument:yearn_goat_horn}"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:dream_goat_horn}"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "chance": 0.5
+  },
+  "target_condition": {
+    "type": "origins:entity_type",
+    "entity_type": "minecraft:goat"
+  }
+}
