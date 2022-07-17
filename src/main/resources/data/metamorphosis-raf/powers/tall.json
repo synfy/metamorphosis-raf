@@ -1,0 +1,6 @@
+{
+  "type": "metamorphosis-raf:change_size",
+  "name": "Tall",
+  "description": "You're three blocks tall!",
+  "scale": 1.5
+}

@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins:vegetarian",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "metamorphosis-raf:wet_skin",
+    "metamorphosis-raf:aquatic_herbivore",
+    "metamorphosis-raf:growing_appetite",
+    "metamorphosis-raf:strong",
+    "metamorphosis-raf:horned",
+    "metamorphosis-raf:tall",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Mokele Mbembe",
+  "description": "A cryptid or a spirit, resembling an extinct sauropod, you reside deep within the Congo River Basin."
+}

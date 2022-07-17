@@ -1,0 +1,70 @@
+{
+  "name": "Horned",
+  "description": "There's a rare chance to drop a horn in the morning.",
+  "type": "origins:action_on_wake_up",
+  "entity_action": {
+    "type": "origins:chance",
+    "action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:ponder_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:sing_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:seek_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:feel_goat_horn}"
+          },
+          "weight": 2
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:admire_goat_horn}"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:call_goat_horn}"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command":"give @p minecraft:goat_horn{instrument:yearn_goat_horn}"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "give @p minecraft:goat_horn{instrument:dream_goat_horn}"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "chance": 0.5
+  }
+}

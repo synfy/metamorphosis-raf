@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "origins:vegetarian",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "metamorphosis-raf:aquatic_herbivore",
+    "metamorphosis-raf:growing_appetite",
+    "metamorphosis-raf:wet_skin",
+    "metamorphosis-raf:growth_controller_mokele",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "name": "Mokele Mbembe Calf",
+  "description": "A calf of the elusive Mokele"
+}

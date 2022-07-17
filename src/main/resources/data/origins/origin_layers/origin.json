@@ -5,7 +5,9 @@
     "metamorphosis-raf:chupacabrito",
     "metamorphosis-raf:chupacabra",
     "metamorphosis-raf:hercinia_fledgeling",
-    "metamorphosis-raf:hercinia"
+    "metamorphosis-raf:hercinia",
+    "metamorphosis-raf:mokele_calf",
+    "metamorphosis-raf:mokele"
   ],
   "name": "origin",
   "replace": true,
