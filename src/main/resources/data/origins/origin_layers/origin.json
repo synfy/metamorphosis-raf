@@ -7,7 +7,9 @@
     "metamorphosis-raf:hercinia_fledgeling",
     "metamorphosis-raf:hercinia",
     "metamorphosis-raf:mokele_calf",
-    "metamorphosis-raf:mokele"
+    "metamorphosis-raf:mokele",
+    "metamorphosis-raf:wormling",
+    "metamorphosis-raf:worm"
   ],
   "name": "origin",
   "replace": true,

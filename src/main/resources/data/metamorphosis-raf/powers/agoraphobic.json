@@ -1,0 +1,17 @@
+{
+  "name": "Agoraphobic",
+  "description": "You're not meant to be out in the open, and looking at the sky makes you panic.",
+  "type": "origins:stacking_status_effect",
+  "min_stacks": -20,
+  "max_stacks": 361,
+  "duration_per_stack": 10,
+  "effect": {
+    "effect": "minecraft:blindness",
+    "is_ambient": true,
+    "show_particles": true,
+    "show_icon": true
+  },
+  "condition": {
+    "type": "origins:exposed_to_sky"
+  }
+}

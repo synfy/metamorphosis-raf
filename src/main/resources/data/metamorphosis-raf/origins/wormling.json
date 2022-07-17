@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "metamorphosis-raf:burrowing",
+    "metamorphosis-raf:less_health",
+    "metamorphosis-raf:agoraphobic",
+    "metamorphosis-raf:growth_controller_worm",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:sand",
+  "impact": 3,
+  "name": "Mongolian Death Wormling",
+  "description": "A baby mongolian death worm"
+}

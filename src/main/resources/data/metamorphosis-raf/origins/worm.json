@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "metamorphosis-raf:burrowing",
+    "metamorphosis-raf:vibration_sense",
+    "metamorphosis-raf:poisonous",
+    "metamorphosis-raf:agoraphobic",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:sand",
+  "impact": 3,
+  "unchoosable": true,
+  "name": "Mongolian Death Worm",
+  "description": "An alleged denizen of the Gobi, the name translates to \"large intestine worm\""
+}
