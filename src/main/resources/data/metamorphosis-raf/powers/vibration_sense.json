@@ -1,0 +1,39 @@
+{
+  "name": "Vibration Sense",
+  "description": "You can sense other moving creatures by their vibrations. If they are silent, you can't see them at all, though.",
+  "type": "origins:multiple",
+  "sensing": {
+    "type": "origins:entity_glow",
+    "green": 0,
+    "blue": 0,
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:moving"
+          },
+          {
+            "type": "origins:sneaking",
+            "inverted": true
+          },
+          {
+            "type": "origins:power",
+            "power": "metamorphosis-raf:silent",
+            "inverted": true
+          }
+        ]
+      }
+    }
+  },
+  "sneakers": {
+    "type": "origins:prevent_entity_render",
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "type": "origins:sneaking"
+      }
+    }
+  }
+}

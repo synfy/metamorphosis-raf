@@ -4,7 +4,7 @@
   "description": "You have a bit less health than average",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
-    "value": -2.0,
+    "value": -3.0,
     "operation": "addition"
   }
 }
