@@ -1,19 +1,21 @@
 {
   "name": "Silent",
   "description": "You're sneaky and can do many things silently.",
-  "type": "origins:prevent_game_event",
-  "events": [
-    {
-      "event": "minecraft:step"
-    },
-    {
-      "event": "minecraft:hit_ground"
-    },
-    {
-      "event": "minecraft:container_open"
-    },
-    {
-      "event": "minecraft:container_close"
-    }
-  ]
+  "type": "origins:multiple",
+  "one": {
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:step"
+  },
+  "two": {
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:hit_ground"
+  },
+  "three": {
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:container_open"
+  },
+  "four": {
+    "type": "origins:prevent_game_event",
+    "event": "minecraft:container_close"
+  }
 }

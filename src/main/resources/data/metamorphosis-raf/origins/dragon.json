@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "origins:fire_immunity",
+    "origins:elytra",
+    "origins:launch_into_air",
+    "metamorphosis-raf:heart_of_fire",
+    "metamorphosis-raf:aurophilia",
+    "metamorphosis-raf:tall",
+    "metamorphosis-raf:more_health",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:lava_bucket",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Dragon",
+  "description": "Mythical fire-breathing beast"
+}

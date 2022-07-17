@@ -1,0 +1,58 @@
+{
+  "name": "Heart of Fire",
+  "description": "Heat bolsters you, but the cold is far more biting.",
+  "type": "origins:multiple",
+  "loves_heat": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+      "effect": "minecraft:strength",
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": ">=",
+        "compare_to": 2
+      }
+    }
+  },
+  "hates_cold": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -3,
+    "max_stacks": 1,
+    "duration_per_stack": 100,
+    "tick_rate": 20,
+    "effect": {
+      "effect": "minecraft:weakness",
+      "is_ambient": true,
+      "show_particles": true,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": ">=",
+        "compare_to": 0
+      }
+    }
+  },
+  "powdered_snow": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "freeze"
+    },
+    "modifier": {
+      "operation": "addition",
+      "value": 1.5
+    }
+  }
+}

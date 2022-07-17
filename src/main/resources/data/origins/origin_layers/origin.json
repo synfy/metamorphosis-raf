@@ -9,7 +9,9 @@
     "metamorphosis-raf:mokele_calf",
     "metamorphosis-raf:mokele",
     "metamorphosis-raf:wormling",
-    "metamorphosis-raf:worm"
+    "metamorphosis-raf:worm",
+    "metamorphosis-raf:dragon_hatchling",
+    "metamorphosis-raf:dragon"
   ],
   "name": "origin",
   "replace": true,

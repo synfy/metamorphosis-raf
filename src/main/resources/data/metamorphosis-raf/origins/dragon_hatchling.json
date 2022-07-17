@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "origins:fire_immunity",
+    "metamorphosis-raf:heart_of_fire",
+    "metamorphosis-raf:aurophilia",
+    "metamorphosis-raf:growth_controller_dragon",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:lava_bucket",
+  "impact": 2,
+  "name": "Dragon Hatchling",
+  "description": "A little baby dragon"
+}
