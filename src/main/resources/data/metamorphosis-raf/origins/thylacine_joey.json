@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:cat_vision",
+    "metamorphosis-raf:milk_drinker",
+    "metamorphosis-raf:less_health",
+    "metamorphosis-raf:itty_bitty",
+    "metamorphosis-raf:sensitive_eyes",
+    "metamorphosis-raf:camouflage",
+    "metamorphosis-raf:growth_controller_thylacine",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:rotten_flesh",
+  "impact": 2,
+  "name": "Thylacine Joey",
+  "description": ""
+}

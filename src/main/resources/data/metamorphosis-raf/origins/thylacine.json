@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:cat_vision",
+    "origins:carnivore",
+    "metamorphosis-raf:sensitive_eyes",
+    "metamorphosis-raf:silent",
+    "metamorphosis-raf:short",
+    "metamorphosis-raf:camouflage",
+    "metamorphosis-raf:pouch",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:rotten_flesh",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Thylacine",
+  "description": ""
+}

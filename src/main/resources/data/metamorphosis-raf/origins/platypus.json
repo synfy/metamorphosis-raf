@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:lay_eggs",
+    "origins:aquatic",
+    "origins:carnivore",
+    "metamorphosis-raf:electroreception",
+    "metamorphosis-raf:milky",
+    "metamorphosis-raf:short",
+    "metamorphosis-raf:wet_skin",
+    "metamorphosis-raf:unobservant",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:milk_bucket",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Platypus",
+  "description": "A semi-aquatic, egg-laying mammal of action!"
+}

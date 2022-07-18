@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins:tailwind",
+    "origins:vegetarian",
+    "metamorphosis-raf:tall",
+    "metamorphosis-raf:loud_steps",
+    "metamorphosis-raf:moulting",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:egg",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Moa",
+  "description": ""
+}

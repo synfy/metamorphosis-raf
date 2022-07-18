@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "metamorphosis-raf:itty_bitty",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "metamorphosis-raf:wet_skin",
+    "metamorphosis-raf:milk_drinker",
+    "metamorphosis-raf:unobservant",
+    "metamorphosis-raf:growth_controller_platypus",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:milk_bucket",
+  "impact": 2,
+  "name": "Platypup",
+  "description": ""
+}

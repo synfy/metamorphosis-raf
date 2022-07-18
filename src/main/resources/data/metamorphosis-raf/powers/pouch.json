@@ -1,0 +1,11 @@
+{
+  "name": "Pouch",
+  "description": "As a marsupial, you have a pouch to store items in. Or babies, I guess.",
+  "type": "origins:inventory",
+  "title": "container.shulker_inventory_power",
+  "drop_on_death": true,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
+}

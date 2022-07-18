@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:tailwind",
+    "origins:vegetarian",
+    "metamorphosis-raf:less_health",
+    "metamorphosis-raf:short",
+    "metamorphosis-raf:growth_controller_moa",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:egg",
+  "impact": 2,
+  "name": "Moa Chick",
+  "description": ""
+}
