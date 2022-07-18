@@ -3,7 +3,11 @@
   "hidden": true,
   "description": "Controls the evolution of this origin. You shouldn't be able to see this.",
   "alert": {
-    "type": "origins:action_on_wake_up",
+    "type": "origins:action_on_block_use",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:bed"
+    },
     "entity_action": {
       "type": "origins:if_else",
       "if_action": {
@@ -18,7 +22,11 @@
     }
   },
   "sparkle": {
-    "type": "origins:action_on_wake_up",
+    "type": "origins:action_on_block_use",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:bed"
+    },
     "entity_action": {
       "type": "origins:if_else",
       "if_action": {
@@ -36,7 +44,11 @@
     }
   },
   "evolve": {
-    "type": "origins:action_on_wake_up",
+    "type": "origins:action_on_block_use",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:bed"
+    },
     "entity_action": {
       "type": "origins:if_else",
       "if_action": {

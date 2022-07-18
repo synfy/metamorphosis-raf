@@ -1,0 +1,11 @@
+{
+  "name": "Moulting",
+  "description": "Every morning, you drop a feather.",
+  "type": "origins:action_on_wake_up",
+  "entity_action": {
+    "type": "origins:give",
+    "stack": {
+      "item": "minecraft:feather"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Insomniac",
+  "descriptions": "You love the night too much to sleep. As a creature of the night, you don't spawn phantoms either.",
+  "type": "origins:multiple",
+  "no_phantoms": {
+    "type": "origins:modify_insomnia_ticks",
+    "modifier": {
+      "operation": "set_total",
+      "value": 0
+    }
+  },
+  "no_sleep": {
+    "type": "origins:prevent_block_use",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:bed"
+    }
+  }
+}

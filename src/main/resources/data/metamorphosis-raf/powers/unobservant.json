@@ -1,0 +1,11 @@
+{
+  "name": "Unobservant",
+  "description": "You can't see entities that are sneaking at all.",
+  "type": "origins:prevent_entity_render",
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:sneaking"
+    }
+  }
+}

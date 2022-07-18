@@ -1,0 +1,10 @@
+{
+  "name": "Lucky",
+  "description": "You're lucky!",
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "generic.luck",
+    "value": 500,
+    "operation": "addition"
+  }
+}
