@@ -6,7 +6,7 @@
     "type": "origins:action_on_block_use",
     "block_condition": {
       "type": "origins:in_tag",
-      "tag": "minecraft:bed"
+      "tag": "minecraft:beds"
     },
     "entity_action": {
       "type": "origins:if_else",
@@ -25,7 +25,7 @@
     "type": "origins:action_on_block_use",
     "block_condition": {
       "type": "origins:in_tag",
-      "tag": "minecraft:bed"
+      "tag": "minecraft:beds"
     },
     "entity_action": {
       "type": "origins:if_else",
@@ -47,7 +47,7 @@
     "type": "origins:action_on_block_use",
     "block_condition": {
       "type": "origins:in_tag",
-      "tag": "minecraft:bed"
+      "tag": "minecraft:beds"
     },
     "entity_action": {
       "type": "origins:if_else",

@@ -70,8 +70,7 @@
           "block_condition": {
             "type": "origins:fluid",
             "fluid_condition": {
-              "type": "origins:still",
-              "inverted": true
+              "type": "origins:still"
             }
           }
         },

@@ -3,7 +3,7 @@
   "description": "You're best suited to flight, and are a bit slower on the ground.",
   "type": "origins:stacking_status_effect",
   "min_stacks": -20,
-  "max_stacks": 361,
+  "max_stacks": 20,
   "duration_per_stack": 10,
   "effect": {
     "effect": "minecraft:slowness",

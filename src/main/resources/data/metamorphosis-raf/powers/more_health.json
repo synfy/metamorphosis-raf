@@ -1,7 +1,7 @@
 {
   "type": "origins:attribute",
-  "name": "Less Health",
-  "description": "You have a bit less health than average",
+  "name": "More Health",
+  "description": "You have a bit more health than average",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
     "value": 4.0,

@@ -12,9 +12,6 @@
         "type": "origins:and",
         "conditions": [
           {
-            "type": "origins:moving"
-          },
-          {
             "type": "origins:sneaking",
             "inverted": true
           },

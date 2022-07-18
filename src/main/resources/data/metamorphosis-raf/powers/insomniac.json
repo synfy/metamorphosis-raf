@@ -10,10 +10,8 @@
     }
   },
   "no_sleep": {
-    "type": "origins:prevent_block_use",
-    "block_condition": {
-      "type": "origins:in_tag",
-      "tag": "minecraft:bed"
-    }
+    "type": "origins:prevent_sleep",
+    "message": "But the moon is out!",
+    "set_spawn_point": true
   }
 }
