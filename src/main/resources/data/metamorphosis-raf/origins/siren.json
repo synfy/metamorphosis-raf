@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins:water_breathing",
+    "origins:carnivore",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions",
+    "metamorphosis-raf:alluring_gaze",
+    "metamorphosis-raf:freezing_gaze",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:nautilus",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Siren",
+  "description": ""
+}

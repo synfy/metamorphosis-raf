@@ -13,7 +13,7 @@
     "metamorphosis-raf:tall",
     "metamorphosis-raf:death_controller"
   ],
-  "icon": "minecraft:feather",
+  "icon": "minecraft:water_bucket",
   "impact": 2,
   "unchoosable": true,
   "name": "Mokele Mbembe",

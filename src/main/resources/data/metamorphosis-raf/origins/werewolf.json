@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "origins:nocturnal",
+    "metamorphosis-raf:insomniac",
+    "metamorphosis-raf:ferrophobic",
+    "metamorphosis-raf:nocturnal_beast",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:iron_sword",
+  "impact": 3,
+  "unchoosable": true,
+  "name": "Werewolf",
+  "description": ""
+}

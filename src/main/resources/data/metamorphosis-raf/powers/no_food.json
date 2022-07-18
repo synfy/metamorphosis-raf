@@ -1,0 +1,19 @@
+{
+  "name": "No Food",
+  "description": "You don't have a stomach, so you don't need to eat. You also can't eat, so better find another way to heal.",
+  "type": "origins:multiple",
+  "no_hunger":{
+    "type": "origins:exhaust",
+    "interval": 40,
+    "exhaustion": -1.0
+  },
+  "no_eating":{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  },
+  "no_food_regen":{
+    "type": "origins:disable_regen"
+  }
+}

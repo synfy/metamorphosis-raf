@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "origins:slow_falling",
+    "origins:cat_vision",
+    "metamorphosis-raf:alluring_gaze",
+    "metamorphosis-raf:no_food",
+    "metamorphosis-raf:bloodsucker",
+    "metamorphosis-raf:creature_of_the_night",
+    "metamorphosis-raf:no_stomach",
+    "metamorphosis-raf:dead_heart",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:wooden_sword",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Vampire",
+  "description": ""
+}

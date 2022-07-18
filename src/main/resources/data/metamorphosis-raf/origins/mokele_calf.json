@@ -11,7 +11,7 @@
     "metamorphosis-raf:growth_controller_mokele",
     "metamorphosis-raf:death_controller"
   ],
-  "icon": "minecraft:feather",
+  "icon": "minecraft:water_bucket",
   "impact": 2,
   "name": "Mokele Mbembe Calf",
   "description": "A calf of the elusive Mokele"

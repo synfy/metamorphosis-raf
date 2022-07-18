@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "origins:water_breathing",
+    "origins:carnivore",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions",
+    "metamorphosis-raf:growth_controller_siren",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:nautilus",
+  "impact": 2,
+  "name": "Siren Fry",
+  "description": ""
+}

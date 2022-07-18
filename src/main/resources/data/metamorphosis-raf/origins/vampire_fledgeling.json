@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "metamorphosis-raf:bloodsucker",
+    "metamorphosis-raf:creature_of_the_night",
+    "metamorphosis-raf:no_stomach",
+    "metamorphosis-raf:dead_heart",
+    "metamorphosis-raf:growth_controller_vampire",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:wooden_sword",
+  "impact": 2,
+  "name": "Vampire Fledgeling",
+  "description": ""
+}

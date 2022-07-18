@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:carnivore",
+    "metamorphosis-raf:insomniac",
+    "metamorphosis-raf:short",
+    "metamorphosis-raf:ferrophobic",
+    "metamorphosis-raf:growth-controller-werewolf",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:iron_sword",
+  "impact": 3,
+  "name": "Werewolf Cub",
+  "description": ""
+}
