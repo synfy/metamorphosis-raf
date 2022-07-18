@@ -17,7 +17,7 @@
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:cod",
-  "impact": 2,
+  "impact": 3,
   "name": "Goblin Shark Pup",
-  "description": ""
+  "description": "A goblin shark pup"
 }

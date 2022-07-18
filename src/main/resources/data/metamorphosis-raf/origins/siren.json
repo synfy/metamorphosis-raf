@@ -14,8 +14,8 @@
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:nautilus",
-  "impact": 2,
+  "impact": 3,
   "unchoosable": true,
   "name": "Siren",
-  "description": ""
+  "description": "Lure Odysseus to his death with the promise of winning lottery numbers!"
 }

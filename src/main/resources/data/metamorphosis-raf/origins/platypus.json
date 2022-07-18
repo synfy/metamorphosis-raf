@@ -15,7 +15,7 @@
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:milk_bucket",
-  "impact": 2,
+  "impact": 3,
   "unchoosable": true,
   "name": "Platypus",
   "description": "A semi-aquatic, egg-laying mammal of action!"

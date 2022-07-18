@@ -13,7 +13,7 @@
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:nautilus",
-  "impact": 2,
+  "impact": 3,
   "name": "Siren Fry",
-  "description": ""
+  "description": "Maybe you'd catch more sailors if your voice stopped cracking every three notes"
 }

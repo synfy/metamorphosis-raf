@@ -8,7 +8,7 @@
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:iron_sword",
-  "impact": 3,
+  "impact": 2,
   "name": "Werewolf Cub",
-  "description": ""
+  "description": "awoo!"
 }

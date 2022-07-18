@@ -15,8 +15,8 @@
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:cod",
-  "impact": 2,
+  "impact": 3,
   "unchoosable": true,
   "name": "Goblin Shark",
-  "description": ""
+  "description": "The most basal shark alive today. Also, the second most disgusting looking shark alive today!"
 }
