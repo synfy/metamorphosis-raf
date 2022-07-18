@@ -1,0 +1,27 @@
+{
+  "name": "Electroreception",
+  "description": "You can use electricity to sense other creatures in the water around you.",
+  "type": "origins:entity_glow",
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">=",
+          "compare_to": 0.1
+        },
+        {
+          "condition": "apoli:power",
+          "power": "metamorphosis-raf:silent"
+        }
+      ]
+    }
+  },
+  "use_teams": false,
+  "red": 0.0,
+  "green": 0.0,
+  "blue": 1.0
+}

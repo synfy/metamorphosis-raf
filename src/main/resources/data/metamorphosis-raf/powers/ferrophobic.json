@@ -1,0 +1,72 @@
+{
+  "name": "Ferrophobic",
+  "description": "Iron burns your skin. You can't wear it, and it hurts you to be hit by it.",
+  "type": "origins:multiple",
+  "no_armor": {
+    "type": "origins:restrict_armor",
+    "head": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:iron_helmet"
+        }
+      ]
+    },
+    "chest": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:iron_chestplate"
+        }
+      ]
+    },
+    "legs": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:iron_leggings"
+        }
+      ]
+    },
+    "feet": {
+      "type": "origins:ingredient",
+      "ingredient": [
+        {
+          "item": "minecraft:iron_boots"
+        }
+      ]
+    }
+  },
+  "bad_weapons": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type":"origins:ingredient",
+              "ingredient": {
+                "item": "minecraft:iron_sword"
+              }
+            },
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "item": "minecraft:iron_axe"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "modifier": {
+      "name": "Weak to iron",
+      "operation": "addition",
+      "value": 5.5
+    }
+  }
+}

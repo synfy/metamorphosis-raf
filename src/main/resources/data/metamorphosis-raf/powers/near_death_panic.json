@@ -1,0 +1,23 @@
+{
+  "name": "Near Death Panic",
+  "description": "When on three or fewer hearts, you get a burst of speed and strength.",
+  "type": "origins:conditioned_attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "addition",
+      "value": 0.5
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "value": 1
+    }
+  ],
+  "tick_rate": 20,
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<=",
+    "compare_to": 6
+  }
+}

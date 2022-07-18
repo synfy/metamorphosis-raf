@@ -1,0 +1,23 @@
+{
+  "name": "Dead Heart",
+  "description": "A stake to the heart can be deadly for you. Watch out for wooden swords.",
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type":"origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:wooden_sword"
+        }
+      }
+    }
+  },
+  "modifier": {
+    "name": "Weak to wood",
+    "operation": "addition",
+    "value": 5.5
+  }
+}

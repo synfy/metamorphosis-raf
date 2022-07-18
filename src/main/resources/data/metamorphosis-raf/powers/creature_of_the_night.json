@@ -1,0 +1,91 @@
+{
+  "name": "Creature of the Night",
+  "description": "You're faster and better at night, but the sunlight causes you problems. And running water. Oh, and you're legally dead.",
+  "type": "origins:multiple",
+  "best_at_night": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 20,
+    "duration_per_stack": 10,
+    "effects": [
+      {
+        "effect": "minecraft:strength",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:jump_boost",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": {
+        "type": "origins:time_of_day",
+        "comparison": "<=",
+        "compare_to": 13000
+      }
+    }
+  },
+  "worst_during_the_day": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 20,
+    "duration_per_stack": 10,
+    "effects": [
+      {
+        "effect": "minecraft:weakness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:slowness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": "origins:exposed_to_sun"
+    }
+  },
+  "no_running_water": {
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage": 2,
+    "damage_easy": 1,
+    "damage_source": {
+      "name": "hurt_by_water",
+      "unblockable": true,
+      "bypasses_armor": true
+    },
+    "protection_enchantment": "origins:water_protection",
+    "protection_effectiveness": 1.0,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_block",
+          "block_condition": {
+            "type": "origins:fluid",
+            "fluid_condition": {
+              "type": "origins:still",
+              "inverted": true
+            }
+          }
+        },
+        {
+          "type": "origins:in_rain"
+        }
+      ]
+    }
+  },
+  "legally_dead": {
+    "type": "origins:entity_group",
+    "group": "undead"
+  }
+}

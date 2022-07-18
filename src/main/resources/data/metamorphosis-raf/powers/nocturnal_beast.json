@@ -1,0 +1,56 @@
+{
+  "name": "Nocturnal Beast",
+  "description": "Night time makes you stronger, bigger, and hungrier.",
+  "type": "origins:multiple",
+  "bigger": {
+    "type": "origins:action_over_time",
+    "rising_action": {
+      "type": "origins:grant_power",
+      "power": "metamorphosis-raf:tall"
+    },
+    "falling_action": {
+      "type": "origins:revoke_power",
+      "power": "metamorphosis-raf:tall"
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:time_of_day",
+      "comparison": "<=",
+      "compare_to": 13000
+    }
+  },
+  "stronger": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 20,
+    "duration_per_stack": 10,
+    "effect": {
+      "effect": "minecraft:strength",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:time_of_day",
+      "comparison": "<=",
+      "compare_to": 13000
+    }
+  },
+  "hungrier": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 20,
+    "duration_per_stack": 10,
+    "effect": {
+      "effect": "minecraft:hunger",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    },
+    "condition": {
+      "type": "origins:time_of_day",
+      "comparison": "<=",
+      "compare_to": 13000
+    }
+  }
+}
