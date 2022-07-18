@@ -1,0 +1,17 @@
+{
+  "name": "Milky",
+  "description": "You sweat, well, buckets.",
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:replace_inventory",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:bucket"
+      }
+    },
+    "stack": {
+      "item": "minecraft:milk_bucket"
+    }
+  }
+}

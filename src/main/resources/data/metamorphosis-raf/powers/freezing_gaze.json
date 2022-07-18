@@ -1,0 +1,26 @@
+{
+  "name": "Freezing Gaze",
+  "description": "Making eye contact with another entity causes them to freeze in place",
+  "entity_action": {
+    "type": "origins:raycast",
+    "distance": "24",
+    "block": true,
+    "entity": true,
+    "shape_type": "visual",
+    "fluid_handling": "source_only",
+    "bientity_action": {
+      "type":"origins:target_action",
+      "action": {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 400,
+          "amplifier": 10
+        }
+      }
+    }
+  },
+
+  "command_step": 1,
+  "command_along_ray_only_on_hit": true
+}

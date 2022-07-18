@@ -1,0 +1,25 @@
+{
+  "name": "Milk Drinker",
+  "description": "You're still growing, and the only thing you can digest right now is milk",
+  "type": "origins:multiple",
+  "no_food": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:food"
+    }
+  },
+  "only_milk": {
+    "type": "origins:action_on_item_use",
+    "entity_action": {
+      "type": "origins:feed",
+      "food": 7.0,
+      "saturation": 7.0
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:milk_bucket"
+      }
+    }
+  }
+}
