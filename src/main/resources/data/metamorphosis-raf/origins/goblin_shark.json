@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "origins:water_breathing",
+    "origins:carnivore",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions",
+    "metamorphosis-raf:extended_jaw",
+    "metamorphosis-raf:electroreception",
+    "metamorphosis-raf:silent",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:cod",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Goblin Shark",
+  "description": ""
+}

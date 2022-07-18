@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:tailwind",
+    "origins:slow_falling",
+    "origins:carnivore",
+    "metamorphosis-raf:growing_appetite",
+    "metamorphosis-raf:silent",
+    "metamorphosis-raf:itty_bitty",
+    "metamorphosis-raf:growth_controller_microraptor",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:bone",
+  "impact": 2,
+  "name": "Microraptor Hatchling",
+  "description": ""
+}

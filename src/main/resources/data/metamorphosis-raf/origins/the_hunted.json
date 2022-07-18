@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "metamorphosis-raf:lucky",
+    "metamorphosis-raf:near_death_panic",
+    "metamorphosis-raf:favoured_axe",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:netherite_axe",
+  "impact": 1,
+  "name": "The Hunted",
+  "description": ""
+}

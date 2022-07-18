@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins:carnivore",
+    "origins:slow_falling",
+    "metamorphosis-raf:small",
+    "metamorphosis-raf:silent",
+    "metamorphosis-raf:suited_to_the_sky",
+    "metamorphosis-raf:death_controller"
+  ],
+  "icon": "minecraft:bone",
+  "impact": 2,
+  "unchoosable": true,
+  "name": "Microraptor",
+  "description": ""
+}
