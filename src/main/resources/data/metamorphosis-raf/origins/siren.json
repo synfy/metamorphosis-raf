@@ -13,7 +13,7 @@
     "metamorphosis-raf:freezing_gaze",
     "metamorphosis-raf:death_controller"
   ],
-  "icon": "minecraft:nautilus",
+  "icon": "minecraft:nautilus_shell",
   "impact": 3,
   "unchoosable": true,
   "name": "Siren",

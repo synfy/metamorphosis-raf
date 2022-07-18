@@ -12,10 +12,6 @@
           "fluid": "minecraft:water",
           "comparison": ">=",
           "compare_to": 0.1
-        },
-        {
-          "condition": "apoli:power",
-          "power": "metamorphosis-raf:silent"
         }
       ]
     }

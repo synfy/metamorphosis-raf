@@ -1,0 +1,6 @@
+{
+  "type": "metamorphosis-raf:change_size",
+  "name": "Small",
+  "description": "You're a short king",
+  "scale": 0.75
+}

@@ -4,7 +4,7 @@
     "metamorphosis-raf:insomniac",
     "metamorphosis-raf:short",
     "metamorphosis-raf:ferrophobic",
-    "metamorphosis-raf:growth-controller-werewolf",
+    "metamorphosis-raf:growth_controller_werewolf",
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:iron_sword",

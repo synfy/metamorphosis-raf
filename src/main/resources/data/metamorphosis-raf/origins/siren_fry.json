@@ -12,7 +12,7 @@
     "metamorphosis-raf:growth_controller_siren",
     "metamorphosis-raf:death_controller"
   ],
-  "icon": "minecraft:nautilus",
+  "icon": "minecraft:nautilus_shell",
   "impact": 3,
   "name": "Siren Fry",
   "description": "Maybe you'd catch more sailors if your voice stopped cracking every three notes"

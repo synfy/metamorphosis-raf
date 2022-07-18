@@ -1,4 +1,5 @@
 {
+  "type": "origins:action_over_time",
   "name": "Freezing Gaze",
   "description": "Making eye contact with another entity causes them to freeze in place",
   "entity_action": {

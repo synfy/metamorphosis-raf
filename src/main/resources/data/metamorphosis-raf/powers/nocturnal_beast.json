@@ -6,11 +6,13 @@
     "type": "origins:action_over_time",
     "rising_action": {
       "type": "origins:grant_power",
-      "power": "metamorphosis-raf:tall"
+      "power": "metamorphosis-raf:tall",
+      "source": "metamorphosis-raf:moa"
     },
     "falling_action": {
       "type": "origins:revoke_power",
-      "power": "metamorphosis-raf:tall"
+      "power": "metamorphosis-raf:tall",
+      "source": "metamorphosis-raf:moa"
     },
     "interval": 20,
     "condition": {

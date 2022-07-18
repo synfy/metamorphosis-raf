@@ -1,6 +1,6 @@
 {
   "name": "Insomniac",
-  "descriptions": "You love the night too much to sleep. As a creature of the night, you don't spawn phantoms either.",
+  "description": "You love the night too much to sleep. As a creature of the night, you don't spawn phantoms either.",
   "type": "origins:multiple",
   "no_phantoms": {
     "type": "origins:modify_insomnia_ticks",
