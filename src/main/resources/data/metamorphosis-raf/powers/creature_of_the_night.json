@@ -22,9 +22,8 @@
       }
     ],
     "condition": {
-      "type": "origins:time_of_day",
-      "comparison": "<=",
-      "compare_to": 13000
+      "type": "origins:daytime",
+      "inverted": true
     }
   },
   "worst_during_the_day": {

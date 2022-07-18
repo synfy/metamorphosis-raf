@@ -1,0 +1,9 @@
+{
+  "name": "Favoured Axe",
+  "description": "You spawn with a nice, netherite axe. You're emotionally attached to it.",
+  "type": "origins:action_on_callback",
+  "entity_action_gained": {
+    "type": "origins:execute_command",
+    "command": "give @s minecraft:netherite_axe"
+  }
+}

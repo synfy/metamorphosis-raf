@@ -16,9 +16,8 @@
     },
     "interval": 20,
     "condition": {
-      "type": "origins:time_of_day",
-      "comparison": "<=",
-      "compare_to": 13000
+      "type": "origins:daytime",
+      "inverted": true
     }
   },
   "stronger": {
@@ -33,9 +32,8 @@
       "show_icon": true
     },
     "condition": {
-      "type": "origins:time_of_day",
-      "comparison": "<=",
-      "compare_to": 13000
+      "type": "origins:daytime",
+      "inverted": true
     }
   },
   "hungrier": {
@@ -50,9 +48,8 @@
       "show_icon": true
     },
     "condition": {
-      "type": "origins:time_of_day",
-      "comparison": "<=",
-      "compare_to": 13000
+      "type": "origins:daytime",
+      "inverted": true
     }
   }
 }
