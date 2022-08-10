@@ -7,6 +7,7 @@
     "metamorphosis-raf:sensitive_eyes",
     "metamorphosis-raf:camouflage",
     "metamorphosis-raf:growth_controller_thylacine",
+    "metamorphosis-raf:grace_period",
     "metamorphosis-raf:death_controller"
   ],
   "icon": "minecraft:rotten_flesh",

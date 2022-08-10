@@ -1,0 +1,8 @@
+{
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_gained": {
+    "type": "origins:execute_command",
+    "command": "give @s metamorphosis-raf:milk_bottle 8"
+  }
+}
