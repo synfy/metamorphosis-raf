@@ -41,6 +41,12 @@
           "ingredient": {
             "item": "metamorphosis-raf:milk_bottle"
           }
+        },
+        {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "farmersdelight:milk_bottle"
+          }
         }
       ]
     }

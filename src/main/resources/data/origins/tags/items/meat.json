@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values":
+  [
+    "alaskanativecraft:muktuk",
+    "alaskanativecraft:fish_strip",
+    "alaskanativecraft:dry_fish",
+    "alaskanativecraft:akutaq",
+    "farmersdelight:honey_glazed_ham",
+    "farmersdelight:roast_chicken",
+    "farmersdelight:grilled_salmon",
+    "farmersdelight:steak_and_potatoes",
+    "farmersdelight:roasted_mutton_chops",
+    "farmersdelight:pasta_with_mutton_chop",
+    "farmersdelight:pasta_with_meatballs",
+    "farmersdelight:baked_cod_stew",
+    "farmersdelight:fish_stew",
+    "farmersdelight:chicken_soup",
+    "farmersdelight:beef_stew",
+    "farmersdelight:mutton_wrap",
+    "farmersdelight:bacon_sandwich",
+    "farmersdelight:hamburger",
+    "farmersdelight:chicken_sandwich",
+    "farmersdelight:barbecue_stick",
+    "farmersdelight:smoked_ham",
+    "farmersdelight:ham",
+    "farmersdelight:cooked_salmon_slice",
+    "farmersdelight:salmon_slice",
+    "farmersdelight:cooked_cod_slice",
+    "farmersdelight:cod_slice"
+  ]
+}

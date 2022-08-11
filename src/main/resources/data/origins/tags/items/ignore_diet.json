@@ -2,6 +2,10 @@
   "replace": false,
   "values":
   [
-    "metamorphosis-raf:milk_bottle"
+    "metamorphosis-raf:milk_bottle",
+    "minecraft:golden_apple",
+    "minecraft:enchanted_golden_apple",
+    "adorn:hot_chocolate",
+    "adorn:nether_wart_coffee"
   ]
 }

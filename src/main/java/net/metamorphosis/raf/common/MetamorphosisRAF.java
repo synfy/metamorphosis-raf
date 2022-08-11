@@ -24,7 +24,7 @@ public class MetamorphosisRAF implements ModInitializer{
     public static FlowableFluid STILL_MILK;
     public static FlowableFluid FLOWING_MILK;
     public static Block MILK;
-    public static Item MILK_BOTTLE = new MilkBottle(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(16).food(new FoodComponent.Builder().hunger(0).saturationModifier(0).alwaysEdible().build()));
+    //public static Item MILK_BOTTLE = new MilkBottle(new FabricItemSettings().group(ItemGroup.FOOD).maxCount(16).food(new FoodComponent.Builder().hunger(0).saturationModifier(0).alwaysEdible().build()));
 
     @Override
     public void onInitialize() {
@@ -37,7 +37,8 @@ public class MetamorphosisRAF implements ModInitializer{
         STILL_MILK = Registry.register(Registry.FLUID, new Identifier(MOD_ID, "milk"), new MilkFluid.Still());
         FLOWING_MILK = Registry.register(Registry.FLUID, new Identifier(MOD_ID,"flowing_milk"), new MilkFluid.Flowing());
         MILK = Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "milk"), new FluidBlock(STILL_MILK, FabricBlockSettings.copy(Blocks.WATER)){});
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID,"milk_bottle"), MILK_BOTTLE);
+        //Removed below line since Farmer's delight adds a milk bottle that functions the same
+        //Registry.register(Registry.ITEM, new Identifier(MOD_ID,"milk_bottle"), MILK_BOTTLE);
     }
 
 }
