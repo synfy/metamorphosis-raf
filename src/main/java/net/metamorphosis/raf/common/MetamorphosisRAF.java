@@ -33,10 +33,10 @@ public class MetamorphosisRAF implements ModInitializer{
         CommandRegistrationCallback.EVENT.register((dispatcher, dedicated, registryAccess) -> {
             RerollCommand.register(dispatcher);
         });
-
-        STILL_MILK = Registry.register(Registry.FLUID, new Identifier(MOD_ID, "milk"), new MilkFluid.Still());
-        FLOWING_MILK = Registry.register(Registry.FLUID, new Identifier(MOD_ID,"flowing_milk"), new MilkFluid.Flowing());
-        MILK = Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "milk"), new FluidBlock(STILL_MILK, FabricBlockSettings.copy(Blocks.WATER)){});
+        //Not implemented
+        //STILL_MILK = Registry.register(Registry.FLUID, new Identifier(MOD_ID, "milk"), new MilkFluid.Still());
+        //FLOWING_MILK = Registry.register(Registry.FLUID, new Identifier(MOD_ID,"flowing_milk"), new MilkFluid.Flowing());
+        //MILK = Registry.register(Registry.BLOCK, new Identifier(MOD_ID, "milk"), new FluidBlock(STILL_MILK, FabricBlockSettings.copy(Blocks.WATER)){});
         //Removed below line since Farmer's delight adds a milk bottle that functions the same
         //Registry.register(Registry.ITEM, new Identifier(MOD_ID,"milk_bottle"), MILK_BOTTLE);
     }

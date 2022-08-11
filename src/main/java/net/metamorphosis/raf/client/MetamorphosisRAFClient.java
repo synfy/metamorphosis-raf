@@ -10,7 +10,6 @@ import net.metamorphosis.raf.common.MetamorphosisRAF;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.util.Identifier;
 
-@Environment(EnvType.CLIENT)
 public class MetamorphosisRAFClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
