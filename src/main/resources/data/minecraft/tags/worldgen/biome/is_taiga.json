@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "wythers:ancient_taiga",
+    "wythers:berry_bog",
+    "wythers:birch_taiga",
+    "wythers:boreal_forest_red",
+    "wythers:boreal_forest_yellow",
+    "wythers:cold_island",
+    "wythers:cold_plains",
+    "wythers:deep_snowy_taiga",
+    "wythers:fen",
+    "wythers:giant_sequoia_forest",
+    "wythers:glacial_cliffs",
+    "wythers:larch_taiga",
+    "wythers:old_growth_taiga_crags",
+    "wythers:old_growth_taiga_swamp",
+    "wythers:snowy_fen",
+    "wythers:snowy_thermal_taiga",
+    "wythers:snowy_tundra",
+    "wythers:taiga_crags",
+    "wythers:thermal_taiga",
+    "wythers:thermal_taiga_crags",
+    "wythers:tundra"
+  ]
+}
